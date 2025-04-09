@@ -11,15 +11,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "axios": "0.21.0",
+ "dependencies": {
     "css-loader": "^4.3.0",
     "jest-junit": "^11.1.0",
+    "link": "^2.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12",
-    "cypress": "^9.5.0"
+    "cypress": "^9.5.0",
+    "routes": "^2.1.0",
+    "react-router-dom": "^6.26.2"
   },
   "jest": {
     "moduleNameMapper": {

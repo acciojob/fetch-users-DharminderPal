@@ -1,13 +1,15 @@
-import UserTable from './UserTable';
-import React from "react";
-import './../styles/App.css';
+// src/App.js
+import React from 'react';
+import './App.css';
+import UserList from './UserList';
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-      <UserTable />
+      <h1>Fetch User List</h1>
+      <UserList />
     </div>
   );
 }
 
-export default App
+export default App;
